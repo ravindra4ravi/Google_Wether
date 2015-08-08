@@ -1,11 +1,13 @@
-package ui.indigisweather.indigis.com.indigis_weather;
+package com.indigis.indigis_weather.ui;
 
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class SplashActivity extends AppCompatActivity {
+import com.indigis.indigis_weather.ui.R;
+
+public class SplashActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
